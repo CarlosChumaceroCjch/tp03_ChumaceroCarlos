@@ -2,37 +2,122 @@
 <html lang ="es">
 	<head>
 		<meta charset="UTF-8">
-		<title>Tp03_Chumacero Carlos</title>
+		<title>Introduccion Java</title>
 	</head>
 	<body>
 		<header>
-			<h1>Titulo</h1>
+			<h1>Introduccion Java</h1>
 		</header>
 		<nav>
 			<ul>
-				<li> <a href="">A</a> </li>
-				<li><a href="">B</a></li>
-				<li><a href="">C</a></li>
+				<li><a href="#Concepto">Concepto de Java</a></li>
+				<li><a href="#JavaPlatform">Java como Plataforma</a></li>
+				<li><a href="#JavaLang">Java como Lenguaje</a></li>
 			</ul>
 		</nav>
 		<main>
-			<section>
-				
+			<section id="Concepto">
+				<h2>Concepto de Java</h2>
+				<p>Es una tecnología que incluye un lenguaje de programación y una plataforma de desarrollo</p>
 			</section>
-			<section>
-				
+			<section id="JavaPlatform">
+				<h2>Java como plataforma</h2>
+				<p>
+					La plataforma Java difiere respecto de las plataformas mencionadas en el párrafo anterior
+					debido a que es una plataforma software que se ejecuta sobre las prestaciones que brinda otra
+					plataforma que gestiona el hardware (denominada plataforma base)Esto significa que se puede montar 
+					la plataforma Java sobre cualquier plataforma base.
+				</p>
+				<h3>Componente de la Plataforma Java</h3>
+				<p>En este caso se mostraran los componentes mas destacados de la version 8 de Java</p>
+				<ul>
+					<li>
+						El <b>JRE (Java Runtime Environment)</b> permite ejecutar aplicaciones Java en el ordenador.
+						Básicamente lo que hace es instalar la JVM, la API Java (repartida en tres categorías: API
+						básicas, API de acceso a los datos y de integración con lo existente y API de gestión de
+						la interfaz de las aplicaciones con el usuario) y las herramientas de despliegue de
+						aplicaciones necesarias para asegurar que cualquier aplicación Java se pueda ejecutar
+						en la plataforma base.
+					</li>
+					<li>
+						El <b>JDK (Java Development Kit)</b> incluye todos los componentes del JRE y agrega el
+						lenguaje de programación Java y un conjunto de herramientas de ayuda que permiten
+						al desarrollador crear aplicaciones Java.
+					</li>
+				</ul>
 			</section>
-			<section>
-				
+			<section id="JavaLang">
+				<h2>El lenguaje de programacion Java</h2>
+				<p>
+					Es un lenguaje de programación de alto nivel. Su creador James Gosling lo define en base a sus
+					características: sencillo, orientado a objetos, distribuido, interpretado, robusto, seguro,
+					independiente de las arquitecturas, portable, eficaz, multitarea y dinámico.
+				</p>
+				<h3>Caracteristicas de Java como lenguaje</h3>
+				<p>Seran enunciadas algunas caracteristicas de Java.</p>
+				<ul>
+					<li>
+						Sencillo: La sintaxis de Java es similar a la de los lenguajes C y C++, pero evita
+						características semánticas que los vuelven complejos, confusos y poco seguros
+					</li>
+					<li>
+						Orientado a objetos: Salvo los tipos de datos primitivos, todo en Java es concebido
+						como un objeto. Y, además, Java se ha provisto de clases incorporadas que encapsulan
+						los tipos primitivos (los wrappers). Por lo tanto, Java es un lenguaje de programación
+						orientado a objetos y diseñado según el modelo de otros lenguajes (C++, Eiffel,
+						SmallTalk, Objective C, Cedar/Mesa, Ada, Perl), pero sin sus defectos.
+					</li>
+					<li>
+						Distribuido: Java implementa los protocolos de red estándar, lo que permite desarrollar
+						aplicaciones cliente/servidor en arquitecturas distribuidas, con el fin de invocar
+						tratamientos y/o recuperar datos de máquinas remotas.
+					</li>					
+				</ul>
 			</section>
 		</main>
 		<aside>
-			<a>
-				<img alt="" src="">
+			<h2>Ediciones de la plataforma Java</h2>
+			<ul>
+				<li>
+					<b>Java SE</b>: conocida como Standard Edition es la edición más difundida de la plataforma
+					Java. Incorpora el JDK, necesario para crear aplicaciones de escritorio con o sin interfaz
+					gráfica de usuario, acceso al sistema de archivos, comunicación a través de redes,
+					concurrencia y otros servicios básicos
+				</li>
+				<li>
+					<b>JavaFX</b>: originalmente JavaFX era una alternativa a Java SE para el desarrollo de
+					proyectos de tipo RIA (Rich Internet Applications), con un núcleo más ligero y fácil de
+					distribuir, capacidad de aceleración 3D aprovechando la GPU, servicios avanzados para
+					producción de gráficos y animaciones, y un mecanismo simplificado para el diseño de
+					interfaces de usuario. JavaFX forma parte de Java SE desde la versión 7 de dicha edición
+					de la plataforma (y se eliminó de la misma a partir de la versión 13)
+					
+				</li>
+				<li>
+					<b>Java EE</b>: denominada Enterprise Edition de la plataforma Java, es la versión dirigida al
+					desarrollo de soluciones software que se ejecutarán en un servidor de aplicaciones. A
+					las capacidades de Java SE, la edición EE agrega servicios para gestionar la persistencia
+					de objetos en bases de datos, hacer posible la invocación remota de métodos, crear
+					aplicaciones con interfaz de usuario web, etc.
+				</li>
+				<li>
+					<b>Java ME</b>: Micro Edition, está enfocada a la creación de programas que se ejecutarán
+					en sistemas con recursos limitados, tales como teléfonos móviles, electrodomésticos y
+					dispositivos de domótica o equipos para entornos empotrados como la Rasperry Pi y
+					similares.
+				</li>
+			</ul>
+			<a href="https://www.java.com/es/download/help/develop_es.html" target="blank">
+				<img alt="Logo de Java" src="/images/Logo-Java.jpg" title="Empezar a desarrollar programas Java">
 			</a>
 		</aside>
 		<footer>
-			Informacion de contacto
+			<h2>Informacion de Contacto</h2>
+			<p>E-mail: fi.java@example.com</p>
+			<p>Sigue nuestras redes para conocer aun mas sobre Java</p>
+			<a href="">Facebook</a>
+			<a href="">Instagram</a>
+			<a href="">Twitter</a>
 		</footer>
 	</body>
 </html>
